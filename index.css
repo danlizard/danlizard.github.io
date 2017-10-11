@@ -1,2 +1,11 @@
-body {background-color: rgb(40,140,120);}
-h1 {font-family: 'Amatic SC', cursive;}
+input {border-width: 1;
+	border-color: rgb(100,160,100);}
+textarea {border-color: rgb(100,160,100);}
+
+.colormain {background-color: rgb(40,140,120);}
+.coloradd {background-color: rgb(40,120,140);}
+.title-ish {text-align: center;}
+.Amatic {font-family: 'Amatic SC', cursive;}
+.light {padding-top: -10px;}
+.bear {padding-top: 20px}
+.note {padding-top: 4px;}

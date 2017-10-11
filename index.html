@@ -7,7 +7,30 @@
 	<link href="index.css" rel="stylesheet">
 	<script src="index.js"></script>
 </head>
-<body>
-	<h1><strong>What I need to do</strong></h1>
+<body class="colormain">
+	<div class="title-ish">
+		<h1 class="Amatic"><strong>What I need to do</strong></h1><br>
+	</div>
+	<div class="title-ish light">
+		<textarea class="coloradd" name="note" id="add_a_note" rows="4">"Insert Name Here"</textarea>
+	</div>
+	<div class="title-ish">
+		<input class="colormain" type="submit" name="add_button" for="add_a_note" value="Submit Your Note">
+	</div>
+	<div class="title-ish bear">
+		<div class="note">
+			<input type="checkbox" name="done" id="onec" class="coloradd checked" checked>
+			<label for="onec" class="unnote checked">Color the page and adjust alignments and paddings</label>
+
+		</div>
+		<div class="note">
+			<input type="checkbox" name="done" id="twoc" class="coloradd">
+			<label for="twoc" class="unnote">Add proper buttons and forms</label>
+		</div>
+		<div class="note">
+			<input type="checkbox" name="done" id="thrc" class="coloradd">
+			<label for="thrc" class="unnote">Write the scripts</label>
+		</div>
+	</div>
 </body>
 </html>
