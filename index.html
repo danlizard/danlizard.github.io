@@ -1,32 +1,38 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-	<meta charset="UTF-8">
-	<title>Todo List</title>
-	<link href="https://fonts.googleapis.com/css?family=Amatic+SC" rel="stylesheet">
-	<link href="index.css" rel="stylesheet">
-	<script src="index.js"></script>
-</head>
-<body class="colormain">
-	<div class="title-ish">
-		<h1 class="Amatic"><strong>What I need to do</strong></h1><br>
-	</div>
-	<div class="title-ish light">
-		<textarea class="coloradd" name="note" id="add_a_note" rows="4">"Insert Name Here"</textarea>
-	</div>
-	<div class="title-ish">
-		<input class="colormain" type="submit" name="add_button" for="add_a_note" value="Submit Your Note">
-	</div>
-	<div class="title-ish bear">
-		<div class="note">
-			<p>A</p>
+	<head>
+		<meta charset="UTF-8">
+		<title>Todo List</title>
+		<link href="https://fonts.googleapis.com/css?family=Amatic+SC" rel="stylesheet">
+		<link href="index.css" rel="stylesheet">
+		<script 
+			src="https://code.jquery.com/jquery-3.2.1.min.js" 
+			integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" 
+			crossorigin="anonymous">
+		</script>
+		<script src="index.js"></script>
+	</head>
+	<body class="colormain">
+		<div class="title-ish">
+			<h1 class="Amatic"><strong>What I need to do</strong></h1><br>
 		</div>
-		<div class="note">
-			<p>A</p>
+		<div class="title-ish light">
+			<textarea class="coloradd" name="note" id="addnote" rows="4" placeholder="Insert Name Here"></textarea>
 		</div>
-		<div class="note">
-			<p>A</p>
+		<div class="title-ish">
+			<input class="colormain" type="submit" name="add_button" id="btndd" for="addnote" value="Submit Your Note">
 		</div>
-	</div>
-</body>
+		<div class="title-ish bear" id="holder">
+			<div class="note">
+				<p>A</p>
+				<img src="garbage-img.png" class="icg" >
+			</div>
+			<div class="note">
+				<p>A</p>
+			</div>
+			<div class="note">
+				<p>A</p>
+			</div>
+		</div>
+	</body>
 </html>
