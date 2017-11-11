@@ -13,25 +13,48 @@
 		<script src="index.js"></script>
 	</head>
 	<body class="colormain">
-		<div class="title-ish">
-			<h1 class="Amatic"><strong>What I need to do</strong></h1><br>
-		</div>
-		<div class="title-ish light">
-			<textarea class="coloradd" name="note" id="addnote" rows="4" placeholder="Insert Name Here"></textarea>
-		</div>
-		<div class="title-ish">
-			<input class="colormain" type="submit" name="add_button" id="btndd" for="addnote" value="Submit Your Note">
+		<div class="title-ish bear">
+			<div class="title-ish">
+				<h1 class="Amatic"><strong>What I need to do</strong></h1><br>
+			</div>
+			<div class="title-ish light">
+				<textarea class="coloradd" name="note" id="addnote" rows="4" placeholder="Insert Name Here"></textarea>
+			</div>
+			<table class="title-ish butrow">
+				<tr>
+					<td><img src="delete-img.png" class="dbut"></td>
+					<td>
+						<div class="title-ish">
+							<input class="colormain" type="submit" name="add_button" id="btndd" for="addnote" value="Submit Your Note">
+						</div>
+					</td>
+				</tr>
+			</table>
 		</div>
 		<div class="title-ish bear" id="holder">
-			<div class="note">
-				<p>A</p>
-				<img src="garbage-img.png" class="icg" >
+			<div class="note" id="n1">
+				<table>
+					<tr>
+						<td><img src="garbage-img.png" class="icg" id="n1"></td>
+						<td><p class="ntxt" id="n1">AAAAAAAAAAAAAAAA</p></td>
+					</tr>
+				</table>
 			</div>
-			<div class="note">
-				<p>A</p>
+			<div class="note" id="n2">
+				<table>
+					<tr>
+						<td><img src="garbage-img.png" class="icg" id="n2"></td>
+						<td><p class="ntxt" id="n2">BLOOD</p></td>
+					</tr>
+				</table>
 			</div>
-			<div class="note">
-				<p>A</p>
+			<div class="note" id="n3">
+				<table>
+					<tr>
+						<td><img src="garbage-img.png" class="icg" id="n3"></td>
+						<td><p class="ntxt" id="n3">SORRY</p></td>
+					</tr>
+				</table>
 			</div>
 		</div>
 	</body>

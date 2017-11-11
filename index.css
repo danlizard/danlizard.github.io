@@ -17,6 +17,8 @@ textarea {
 
 .title-ish {
 	text-align: center;
+	margin-left: 30%;
+	margin-right: 30%;
 }
 
 .Amatic {
@@ -34,8 +36,6 @@ textarea {
 .note {
 	padding-top: 4px;
 	background-color: rgb(40,130,130);
-	margin-left: 30%;
-	margin-right: 40%;
 	margin-bottom: 6px;
 	border-style: solid;
 	border-width: 1px;
@@ -45,4 +45,18 @@ textarea {
 .icg {
 	width: 40px;
 	height: 40px;
+}
+
+.fin {
+	text-decoration: line-through;
+}
+
+.dbut {
+	width: 40px;
+	height: 40px;
+}
+
+.butrow {
+	margin-left: 270px;
+	margin-right: 0px;
 }
